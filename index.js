@@ -6,14 +6,14 @@ function receivesAFunction(callback){
 receivesAFunction(() => 'new order')
 
 function returnsANamedFunction(){
-    return function neverQuit(){
-        console.log("Quitting is not an option")
+    return function iAmJs(){
+        console.log("Js is easy")
     }
  
 }
 function returnsAnAnonymousFunction(){
     return function (){
-        return "new label"
+        return "i like Js"
     }
 
 }
